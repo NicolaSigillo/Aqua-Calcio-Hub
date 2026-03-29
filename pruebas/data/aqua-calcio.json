@@ -1,0 +1,720 @@
+{
+  "league": {
+    "name": "Aqua Calcio",
+    "season": "2026",
+    "branding": {
+      "primaryColor": "#13d5ff",
+      "secondaryColor": "#083a5f",
+      "accentColor": "#39f58a",
+      "logo": "assets/images/logo aqua.jfif"
+    },
+    "scoringRules": {
+      "win": 3,
+      "draw": 1,
+      "loss": 0
+    },
+    "tieBreakers": [
+      "points",
+      "goalDifference",
+      "goalsFor"
+    ]
+  },
+  "highlights": {
+    "videos": [
+      {
+        "id": "hl_001",
+        "title": "Robo de Chuo - El Carterista",
+        "description": "Lectura perfecta de juego y recuperacion brutal en plena transicion.",
+        "file": "assets/videos/Robo de Chuo -El Carterista- Errasti.mp4",
+        "postedAt": "2026-03-28"
+      },
+      {
+        "id": "hl_002",
+        "title": "Golazo de Rojas",
+        "description": "Definicion de alto calibre con potencia y precision desde media distancia.",
+        "file": "assets/videos/Golazo de Rojas.mp4",
+        "postedAt": "2026-03-28"
+      },
+      {
+        "id": "hl_003",
+        "title": "Jugadon de los Pescadores de Hombres",
+        "description": "Jugada colectiva de precision, ritmo y lectura para romper lineas.",
+        "file": "assets/videos/Jugadón de los Pescadores de Hombres.mp4",
+        "postedAt": "2026-03-28"
+      }
+    ]
+  },
+  "teams": [
+    {
+      "id": "truchicultura_ca",
+      "name": "Truchicultura CA",
+      "logo": "",
+      "players": [
+        {
+          "id": "raul",
+          "name": "Raul",
+          "position": "Portero",
+          "aliases": ["Raul", "Raul"]
+        },
+        {
+          "id": "santi_o",
+          "name": "Santi O",
+          "position": "Tanque",
+          "aliases": ["Santi O", "Obuchi"]
+        },
+        {
+          "id": "cochi",
+          "name": "Cochi",
+          "position": "Creador",
+          "aliases": ["Cochi"]
+        },
+        {
+          "id": "guzman",
+          "name": "Guzman",
+          "position": "Creador",
+          "aliases": ["Guzman", "Guzman"]
+        }
+      ]
+    },
+    {
+      "id": "pescadores_de_hombres_ac",
+      "name": "Pescadores de Hombres AC",
+      "logo": "",
+      "players": [
+        {
+          "id": "matthias",
+          "name": "Matthias",
+          "position": "Portero",
+          "aliases": ["Matthias"]
+        },
+        {
+          "id": "davisito",
+          "name": "Davisito",
+          "position": "Tanque",
+          "aliases": ["Davisito"]
+        },
+        {
+          "id": "mafa",
+          "name": "Mafa",
+          "position": "Creador",
+          "aliases": ["Mafa"]
+        },
+        {
+          "id": "rojas",
+          "name": "Rojas",
+          "position": "Creador",
+          "aliases": ["Rojas", "Santiago Rojas", "Santiago"]
+        }
+      ]
+    },
+    {
+      "id": "pargos_fc",
+      "name": "Pargos FC",
+      "logo": "",
+      "players": [
+        {
+          "id": "manuel",
+          "name": "Manuel",
+          "position": "Portero",
+          "aliases": ["Manuel"]
+        },
+        {
+          "id": "jj",
+          "name": "JJ",
+          "position": "Tanque",
+          "aliases": ["JJ"]
+        },
+        {
+          "id": "samir",
+          "name": "Samir",
+          "position": "Creador",
+          "aliases": ["Samir"]
+        },
+        {
+          "id": "nicola",
+          "name": "Nicola",
+          "position": "Creador",
+          "aliases": ["Nicola"]
+        }
+      ]
+    },
+    {
+      "id": "iv_reich",
+      "name": "IV Reich",
+      "logo": "",
+      "players": [
+        {
+          "id": "chuo",
+          "name": "Chuo",
+          "position": "Portero",
+          "aliases": ["Chuo"]
+        },
+        {
+          "id": "jorge",
+          "name": "Jorge",
+          "position": "Tanque",
+          "aliases": ["Jorge"]
+        },
+        {
+          "id": "javi",
+          "name": "Javi",
+          "position": "Creador",
+          "aliases": ["Javi"]
+        },
+        {
+          "id": "gustavo",
+          "name": "Gustavo",
+          "position": "Creador",
+          "aliases": ["Gus", "Gustavo"]
+        }
+      ]
+    }
+  ],
+  "matchdays": [
+    {
+      "id": "jornada_01",
+      "number": 1,
+      "date": "2026-03-01",
+      "matches": [
+        {
+          "id": "j01_match_01",
+          "homeTeamId": "iv_reich",
+          "awayTeamId": "pescadores_de_hombres_ac",
+          "score": {
+            "home": 2,
+            "away": 2
+          },
+          "mvpPlayerId": "rojas",
+          "playerStats": [
+            {
+              "playerId": "chuo",
+              "teamId": "iv_reich",
+              "goals": 0,
+              "assists": 1,
+              "rating": 8,
+              "notes": "Atajadas claves"
+            },
+            {
+              "playerId": "javi",
+              "teamId": "iv_reich",
+              "goals": 2,
+              "assists": 0,
+              "rating": 9,
+              "notes": "Doblete"
+            },
+            {
+              "playerId": "jorge",
+              "teamId": "iv_reich",
+              "goals": 0,
+              "assists": 0,
+              "rating": 6.5,
+              "notes": "Trabajo defensivo"
+            },
+            {
+              "playerId": "manuel",
+              "teamId": "pargos_fc",
+              "goals": 0,
+              "assists": 0,
+              "rating": 6,
+              "notes": "Suplencia por Gustavo"
+            },
+            {
+              "playerId": "matthias",
+              "teamId": "pescadores_de_hombres_ac",
+              "goals": 0,
+              "assists": 0,
+              "rating": 6.5,
+              "notes": "Solido en tramos"
+            },
+            {
+              "playerId": "rojas",
+              "teamId": "pescadores_de_hombres_ac",
+              "goals": 2,
+              "assists": 0,
+              "rating": 9.5,
+              "notes": "MVP del partido"
+            },
+            {
+              "playerId": "mafa",
+              "teamId": "pescadores_de_hombres_ac",
+              "goals": 0,
+              "assists": 0,
+              "rating": 8.5,
+              "notes": "Varias recuperaciones"
+            },
+            {
+              "playerId": "davisito",
+              "teamId": "pescadores_de_hombres_ac",
+              "goals": 0,
+              "assists": 0,
+              "rating": 7,
+              "notes": "Intenso"
+            }
+          ],
+          "matchLog": [
+            {
+              "phase": "Inning 1",
+              "sequence": 1,
+              "description": "Recuperacion de Mafa (Pescadores de Hombres)."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 2,
+              "description": "Recuperacion de Mafa (Pescadores de Hombres)."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 3,
+              "description": "Recuperacion de Matthias (Pescadores de Hombres)."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 4,
+              "description": "Recuperacion de Javi (IV Reich)."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 5,
+              "description": "Recuperacion y atajada de Chuo tras disparo de Rojas."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 6,
+              "description": "Fallo de Davisito."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 1,
+              "description": "Recuperacion de Rojas."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 2,
+              "description": "Gol de Javi para IV Reich."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 3,
+              "description": "Recuperacion de Mafa tras disparo de Manuel."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 4,
+              "description": "Parada de Chuo."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 5,
+              "description": "Fallo de Davisito y gol de Rojas para Pescadores."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 6,
+              "description": "Recuperacion de Chuo."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 1,
+              "description": "Recuperacion de Mafa tras fallo previo en la jugada."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 2,
+              "description": "Perdida de Jorge (IV Reich)."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 3,
+              "description": "Gol de Javi tras asistencia de Chuo."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 4,
+              "description": "Recuperacion de Jorge tras tapon de Javi."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 5,
+              "description": "Fallo de Rojas."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 6,
+              "description": "Gol de Rojas para cerrar el 2-2."
+            }
+          ],
+          "highlights": {
+            "images": [],
+            "videos": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "jornada_02",
+      "number": 2,
+      "date": "2026-03-08",
+      "matches": [
+        {
+          "id": "j02_match_01",
+          "homeTeamId": "iv_reich",
+          "awayTeamId": "truchicultura_ca",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "mvpPlayerId": "chuo",
+          "playerStats": [
+            {
+              "playerId": "chuo",
+              "teamId": "iv_reich",
+              "goals": 2,
+              "assists": 0,
+              "rating": 9.5,
+              "notes": "MVP y doblete"
+            },
+            {
+              "playerId": "javi",
+              "teamId": "iv_reich",
+              "goals": 1,
+              "assists": 0,
+              "rating": 9,
+              "notes": "Gol de apertura"
+            },
+            {
+              "playerId": "jorge",
+              "teamId": "iv_reich",
+              "goals": 0,
+              "assists": 0,
+              "rating": 7.5,
+              "notes": "Cobertura clave"
+            },
+            {
+              "playerId": "manuel",
+              "teamId": "pargos_fc",
+              "goals": 0,
+              "assists": 2,
+              "rating": 9,
+              "notes": "Suplencia por Gustavo, 2 asistencias"
+            },
+            {
+              "playerId": "raul",
+              "teamId": "truchicultura_ca",
+              "goals": 0,
+              "assists": 0,
+              "rating": 6,
+              "notes": "Partido exigente"
+            },
+            {
+              "playerId": "santi_o",
+              "teamId": "truchicultura_ca",
+              "goals": 0,
+              "assists": 0,
+              "rating": 6.5,
+              "notes": "Listado como Obuchi"
+            },
+            {
+              "playerId": "guzman",
+              "teamId": "truchicultura_ca",
+              "goals": 1,
+              "assists": 0,
+              "rating": 7.5,
+              "notes": "Gol por banda"
+            },
+            {
+              "playerId": "cochi",
+              "teamId": "truchicultura_ca",
+              "goals": 0,
+              "assists": 0,
+              "rating": 5.5,
+              "notes": "Poca incidencia"
+            }
+          ],
+          "matchLog": [
+            {
+              "phase": "Inning 1",
+              "sequence": 1,
+              "description": "Gol de Javi tras rebote de Manuel."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 2,
+              "description": "Recuperacion de Raul tras desvio de Guzman al tiro de Javi."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 3,
+              "description": "Gol de carrera de Chuo tras pase de Manuel y cobertura de Jorge."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 4,
+              "description": "Tapon y recuperacion de Chuo a tiro de Raul asistido por Guzman."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 5,
+              "description": "Recuperacion de Javi tras desvio de Manuel."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 6,
+              "description": "Gol de Guzman por banda."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 1,
+              "description": "Palo y afuera de Javi."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 2,
+              "description": "Recuperacion de Guzman con apoyo de Raul tras palo de Manuel."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 3,
+              "description": "Nueva recuperacion de Guzman con apoyo de Raul."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 4,
+              "description": "Recuperacion de Javi tras pase fallado de Guzman."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 5,
+              "description": "Recuperacion de Javi in extremis tras pase de Guzman."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 6,
+              "description": "Palo y afuera de Guzman."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 1,
+              "description": "Recuperacion de Raul tras palo de Chuo."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 2,
+              "description": "Palo estrepitoso de Javi asistido por Chuo y recuperacion de Raul."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 3,
+              "description": "Gol de Chuo en el ultimo chance con asistencia de Manuel."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 4,
+              "description": "Paradon de Chuo; rechute de Guzman al palo y afuera."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 5,
+              "description": "Recuperacion de Chuo tras pase de Guzman interceptado por Cochi."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 6,
+              "description": "Fallo de Raul tras pase de Guzman."
+            }
+          ],
+          "highlights": {
+            "images": [],
+            "videos": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "jornada_03",
+      "number": 3,
+      "date": "2026-03-15",
+      "matches": [
+        {
+          "id": "j03_match_01",
+          "homeTeamId": "truchicultura_ca",
+          "awayTeamId": "pescadores_de_hombres_ac",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "mvpPlayerId": "cochi",
+          "playerStats": [
+            {
+              "playerId": "raul",
+              "teamId": "truchicultura_ca",
+              "goals": 0,
+              "assists": 0,
+              "rating": 4.5,
+              "notes": "Partido complicado"
+            },
+            {
+              "playerId": "santi_o",
+              "teamId": "truchicultura_ca",
+              "goals": 0,
+              "assists": 0,
+              "rating": 6.5,
+              "notes": "Listado como Obuchi"
+            },
+            {
+              "playerId": "guzman",
+              "teamId": "truchicultura_ca",
+              "goals": 0,
+              "assists": 1,
+              "rating": 7.5,
+              "notes": "Asistencia"
+            },
+            {
+              "playerId": "cochi",
+              "teamId": "truchicultura_ca",
+              "goals": 1,
+              "assists": 0,
+              "rating": 8.5,
+              "notes": "MVP"
+            },
+            {
+              "playerId": "matthias",
+              "teamId": "pescadores_de_hombres_ac",
+              "goals": 0,
+              "assists": 0,
+              "rating": 7.5,
+              "notes": "Lesion, sale del partido"
+            },
+            {
+              "playerId": "rojas",
+              "teamId": "pescadores_de_hombres_ac",
+              "goals": 1,
+              "assists": 0,
+              "rating": 8,
+              "notes": "Golazo"
+            },
+            {
+              "playerId": "mafa",
+              "teamId": "pescadores_de_hombres_ac",
+              "goals": 0,
+              "assists": 1,
+              "rating": 8.5,
+              "notes": "Asistencia rapida"
+            },
+            {
+              "playerId": "davisito",
+              "teamId": "pescadores_de_hombres_ac",
+              "goals": 0,
+              "assists": 0,
+              "rating": 7,
+              "notes": "Aporte fisico"
+            },
+            {
+              "playerId": "chuo",
+              "teamId": "iv_reich",
+              "goals": 0,
+              "assists": 0,
+              "rating": null,
+              "notes": "Suplencia de Matthias"
+            }
+          ],
+          "matchLog": [
+            {
+              "phase": "Inning 1",
+              "sequence": 1,
+              "description": "Raul lanza a porteria y el rebote saca el balon."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 2,
+              "description": "Tapon de Rojas para recuperacion de Matthias."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 3,
+              "description": "Mafa saca el balon de la cancha en forcejeo."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 4,
+              "description": "Golazo de Rojas tras asistencia de toque rapido de Mafa."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 5,
+              "description": "Pase de Matthias para desmarque de Rojas y disparo fallado."
+            },
+            {
+              "phase": "Inning 1",
+              "sequence": 6,
+              "description": "Matthias conecta con Mafa y el tiro termina en la grada."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 1,
+              "description": "Forcejeo total ganado por Rojas, la saca de la cancha."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 2,
+              "description": "Mafa saca el balon con violencia fuera de la cancha."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 3,
+              "description": "Gol de Cochi despues de fallo propio."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 4,
+              "description": "Robo historico de Cochi, secuencia termina con disparo fallado de Rojas."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 5,
+              "description": "Lesion grave de Matthias; sale y entra Chuo."
+            },
+            {
+              "phase": "Inning 2",
+              "sequence": 6,
+              "description": "Tiro largo de Rojas fuera y luego disparo al palo para cierre del inning."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 1,
+              "description": "Forcejeo comunal, lanzamiento de Santiago a Raul y doble fallo."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 2,
+              "description": "Raul vuelve a fallar frente a porteria; Mafa expulsa el balon."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 3,
+              "description": "Tiki taka que culmina en fallo monumental de Santiago."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 4,
+              "description": "Disparo lejano de Rojas termina en la grada."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 5,
+              "description": "Disparo de Rojas tapado por la cara de Raul; balon afuera por Santiago."
+            },
+            {
+              "phase": "Inning 3",
+              "sequence": 6,
+              "description": "Tercer tiro fallado por Rojas y cierre del empate 1-1."
+            }
+          ],
+          "highlights": {
+            "images": [],
+            "videos": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "league": {
+    "name": "Aqua Calcio",
+    "season": "2026",
+    "branding": {
+      "primaryColor": "#00AEEF",
+      "secondaryColor": "#003B5C",
+      "accentColor": "#00D084",
+      "logo": "assets/images/logo-liga.png"
+    },
+    "scoringRules": {
+      "win": 3,
+      "draw": 1,
+      "loss": 0
+    },
+    "tieBreakers": [
+      "points",
+      "goalDifference",
+      "goalsFor"
+    ]
+  },
+  "teams": [
+    {
+      "id": "team_01",
+      "name": "Nombre del Equipo",
+      "logo": "assets/images/teams/team_01.png",
+      "players": [
+        {
+          "id": "player_01",
+          "name": "Nombre Jugador",
+          "position": "Portero"
+        }
+      ]
+    }
+  ],
+  "matchdays": [
+    {
+      "id": "jornada_01",
+      "number": 1,
+      "date": "2026-03-01",
+      "matches": [
+        {
+          "id": "match_01",
+          "homeTeamId": "team_01",
+          "awayTeamId": "team_02",
+          "score": {
+            "home": 4,
+            "away": 3
+          },
+          "mvpPlayerId": "player_01",
+          "playerStats": [
+            {
+              "playerId": "player_01",
+              "teamId": "team_01",
+              "goals": 2,
+              "assists": 1,
+              "rating": 9.2
+            }
+          ],
+          "matchLog": [
+            {
+              "minute": 3,
+              "event": "goal",
+              "playerId": "player_01",
+              "teamId": "team_01",
+              "description": "Gol desde media piscina"
+            }
+          ],
+          "highlights": {
+            "images": [
+              "assets/images/matchdays/jornada_01/match_01_01.jpg"
+            ],
+            "videos": [
+              "assets/videos/matchdays/jornada_01/match_01_resumen.mp4"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

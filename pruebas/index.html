@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Calcio Hub</title>
+    <meta name="description" content="Hub interactivo de Aqua Calcio con clasificacion, jornadas, ranking y equipos.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="topbar">
+            <div class="brand">
+                <div class="brand-mark">
+                    <img id="brand-logo" class="brand-logo hidden" src="" alt="Logo de Aqua Calcio">
+                    <div id="brand-fallback" class="brand-badge">AC</div>
+                </div>
+                <div>
+                    <h1 id="league-title">Aqua Calcio</h1>
+                    <p id="season-label">Temporada</p>
+                </div>
+            </div>
+            <nav class="top-links">
+                <a href="#clasificacion">Clasificacion</a>
+                <a href="#jornadas">Jornadas</a>
+                <a href="#jugadores">Jugadores</a>
+                <a href="#equipos">Equipos</a>
+                <a href="#highlights">Highlights</a>
+            </nav>
+        </header>
+
+        <section class="hero reveal">
+            <div class="hero-content">
+                <div>
+                    <h2>El pulso de la liga <span>Aqua Calcio</span>, jornada a jornada.</h2>
+                    <p id="hero-summary"></p>
+                </div>
+                <div class="hero-meta">
+                    <div class="meta-chip">
+                        <strong><span id="total-teams">0</span> equipos</strong>
+                        <span>Competencia oficial de la temporada</span>
+                    </div>
+                    <div class="meta-chip">
+                        <strong><span id="total-goals">0</span> goles</strong>
+                        <span>Contabilizados en el historico</span>
+                    </div>
+                    <div class="meta-chip">
+                        <strong><span id="total-matches">0</span> partidos</strong>
+                        <span>Registrados en la plataforma</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="clasificacion">
+            <div class="section-header">
+                <h3>Tabla de Liga</h3>
+                <small id="standings-note"></small>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>GF</th>
+                            <th>GC</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                            <th>Ultimos 5</th>
+                        </tr>
+                    </thead>
+                    <tbody id="standings-body"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section reveal" id="jornadas">
+            <div class="section-header">
+                <h3>Jornadas</h3>
+                <small>Marcador, MVP, estadisticas y bitacora de partido</small>
+            </div>
+            <div id="matchdays-container"></div>
+        </section>
+
+        <section class="section reveal" id="jugadores">
+            <div class="section-header">
+                <h3>Ranking de Jugadores</h3>
+                <small>Impacto calculado por rating, goles, asistencias y MVP</small>
+            </div>
+            <p class="impact-note">
+                Formula usada: <strong>Impacto = (Rating Prom. x 10) + (Goles x 2) + (Asistencias x 1.5) + (MVP x 3)</strong>.
+                El ranking se ordena de mayor a menor impacto.
+            </p>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Jugador</th>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>Goles</th>
+                            <th>Asist.</th>
+                            <th>MVP</th>
+                            <th>Rating Prom.</th>
+                            <th>Impacto</th>
+                        </tr>
+                    </thead>
+                    <tbody id="players-body"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section reveal" id="equipos">
+            <div class="section-header">
+                <h3>Equipos</h3>
+                <small>Planteles con posiciones y espacio para logo</small>
+            </div>
+            <div id="teams-container" class="teams-grid"></div>
+        </section>
+
+        <section class="section reveal" id="highlights">
+            <div class="section-header">
+                <h3>Highlights Globales</h3>
+                <small>Videos destacados de la liga con descripcion</small>
+            </div>
+            <div id="media-container" class="media-grid"></div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
