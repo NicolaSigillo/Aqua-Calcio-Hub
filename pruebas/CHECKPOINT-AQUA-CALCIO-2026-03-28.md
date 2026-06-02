@@ -61,7 +61,7 @@ Plantilla minima:
     {
       "id": "j04_match_01",
       "homeTeamId": "iv_reich",
-      "awayTeamId": "pargos_fc",
+      "awayTeamId": "wallahi_fc",
       "score": { "home": 2, "away": 1 },
       "mvpPlayerId": "javi",
       "playerStats": [],
